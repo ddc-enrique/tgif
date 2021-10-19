@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+html * {
+    font-family: 'Raleway', sans-serif;
+}
+
+p,
+a,
+option,
+label,
+td,
+th {
+    font-size: large;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header div a img, #loader img {
+    width: 250px;
+}
+
+#loader .progress {
+    width: 50vw;
+    height: 2vh;
+}
+
+#magnifyingGlass {
+    width: 250px;
+}
+
+li a.nav-link:hover,
+li a.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #0d6efd !important;
+}
+
+table {
+    max-width: 80vw;
+}
+
+#senate th,
+#house th {
+    min-width: 15vw;
+}
+
+#senate th:first-child,
+#house th:first-child {
+    min-width: 20vw;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    color: #dc3545;
+}
+
+td.text-danger {
+    font-size: 5vh;
+}
+
+th.pointer {
+    cursor: pointer;
+}
+
+/* #house tbody tr td:first-child,
+#senate tbody tr td:first-child, 
+#house thead tr th:first-child,
+#senate thead tr th:first-child {
+    width: 20vw;
+} */
